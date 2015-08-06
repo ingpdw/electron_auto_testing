@@ -1,0 +1,25 @@
+{
+  "name": "test_automation",
+  "version": "0.0.1",
+  "description": "test_automation",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://plat-lego.korea.ncsoft.corp/uikit/test_automation.git"
+  },
+  "author": "NCSOFT",
+  "license": "NCSOFT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.2",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.4.2"
+  },
+  "dependencies": {
+    "brace": "^0.5.1",
+    "jquery": "^2.1.4",
+    "require": "^2.4.20"
+  }
+}
