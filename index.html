@@ -13,7 +13,9 @@
 
   <div class="page-header">
     <h1>테스트 자동화 툴</h1>
-    <a href="#" id="start" class="list-group btn btn-lg btn-success">시작</a>
+    <a href="#" id="start" class="list-group btn btn-lg btn-success">chrome 시작</a>
+    <a href="#" id="start_ff" class="list-group btn btn-lg btn-success">firefox 시작</a>
+    <a href="#" id="start_ie" class="list-group btn btn-lg btn-success">IE 시작</a>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
@@ -25,6 +27,15 @@
       nightwatch.run();
     });
 
+    jQuery( '#start_ff' ).on( 'click', function( evt ){
+      evt.preventDefault();
+      nightwatch.run_ff();
+    });
+
+    jQuery( '#start_ie' ).on( 'click', function( evt ){
+      evt.preventDefault();
+      nightwatch.run_ff();
+    });
   </script>
 </body>
 </html>

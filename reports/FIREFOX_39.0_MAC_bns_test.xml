@@ -5,41 +5,41 @@
 
   <testsuite name="bns_test"
     errors="0" failures="0" hostname="" id="" package="bns_test" skipped="0"
-    tests="3" time="13.40" timestamp="Fri, 07 Aug 2015 08:15:50 GMT">
+    tests="3" time="18.80" timestamp="Fri, 07 Aug 2015 09:00:06 GMT">
+  
+    <testcase name="bns-main-login" time="12.94" assertions="4">
 
-    <testcase name="bns-main-login" time="8.724" assertions="4">
+    
 
+    
 
+    
 
-
-
-
-
-
+    
     </testcase>
+  
+    <testcase name="bns-go-world" time="2.676" assertions="5">
 
-    <testcase name="bns-go-world" time="2.017" assertions="5">
+    
 
+    
 
+    
 
+    
 
-
-
-
-
-
-
+    
     </testcase>
+  
+    <testcase name="bns-search" time="3.185" assertions="3">
 
-    <testcase name="bns-search" time="2.657" assertions="3">
+    
 
+    
 
-
-
-
-
+    
     </testcase>
-
-
+  
+  
   </testsuite>
 </testsuites>

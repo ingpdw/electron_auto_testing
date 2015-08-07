@@ -9,6 +9,14 @@ module.exports = {
       .pipe(nightwatch({
         configFile: './src/nightwatch.json'
       }))
-      .on('end', function() {alert('end')});  
+      .on('end', function() {alert('end')});
+  },
+
+  run_ff: function(){
+    gulp.src('')
+      .pipe(nightwatch({
+        configFile: './src/nightwatch_ff.json'
+      }))
+      .on('end', function() {alert('end')});
   }
 };
