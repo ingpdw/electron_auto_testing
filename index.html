@@ -13,23 +13,18 @@
 
   <div class="page-header">
     <h1>테스트 자동화 툴</h1>
+    <a href="#" id="start" class="list-group btn btn-lg btn-success">시작</a>
   </div>
-
-  <div class="col-sm-4">
-    <a href="create.html" class="list-group btn btn-lg btn-success">신규 테스트 생성</a>
-  </div>
-
-  <div class="col-sm-4">
-    <h2>프로덕트</h2>
-    <div class="list-group">
-      <a href="list.html" class="list-group-item">bns</a>
-      <a href="list.html" class="list-group-item">aion</a>
-      <a href="list.html" class="list-group-item">Lineage1</a>
-      <a href="list.html" class="list-group-item">Lineage2</a>
-    </div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script>
+    var nightwatch = require( './src/nightwatch.js' );
+
+    jQuery( '#start' ).on( 'click', function( evt ){
+      evt.preventDefault();
+      nightwatch.run();
+    });
+
+  </script>
 </body>
 </html>

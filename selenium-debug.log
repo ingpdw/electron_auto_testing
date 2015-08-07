@@ -1,0 +1,96 @@
+17:15:50.347 INFO - Launching a standalone server
+Setting system property webdriver.chrome.driver to ./drivers/chromedriver
+17:15:50.381 INFO - Java: Apple Inc. 20.65-b04-466.1
+17:15:50.381 INFO - OS: Mac OS X 10.10.3 x86_64
+17:15:50.392 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+17:15:50.449 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
+17:15:50.475 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:15:50.475 INFO - Version Jetty/5.1.x
+17:15:50.476 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+17:15:50.476 INFO - Started HttpContext[/selenium-server,/selenium-server]
+17:15:50.476 INFO - Started HttpContext[/,/]
+17:15:50.505 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@379e8f17
+17:15:50.505 INFO - Started HttpContext[/wd,/wd]
+17:15:50.510 INFO - Started SocketListener on 0.0.0.0:4444
+17:15:50.510 INFO - Started org.openqa.jetty.jetty.Server@1d5a0305
+17:15:50.740 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Bns Test, chromeOptions={args=[start-fullscreen]}}]])
+17:15:50.748 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Bns Test, chromeOptions={args=[start-fullscreen]}}]
+17:15:53.995 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Bns Test, chromeOptions={args=[start-fullscreen]}}]]
+17:15:54.006 INFO - Executing: [get: http://rc.bns.plaync.com])
+17:15:56.053 INFO - Done: [get: http://rc.bns.plaync.com]
+17:15:56.059 INFO - Executing: [find elements: By.cssSelector: body])
+17:15:56.154 INFO - Done: [find elements: By.cssSelector: body]
+17:15:56.158 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: body]])
+17:15:56.193 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: body]]
+17:15:56.198 INFO - Executing: [get title])
+17:15:56.244 INFO - Done: [get title]
+17:15:56.249 INFO - Executing: [find element: By.cssSelector: #id])
+17:15:56.288 INFO - Done: [find element: By.cssSelector: #id]
+17:15:56.292 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #id], [b, n, s, w, m, c, 0, 0, 1]])
+17:15:56.372 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #id], [b, n, s, w, m, c, 0, 0, 1]]
+17:15:56.376 INFO - Executing: [find element: By.cssSelector: #pwd])
+17:15:56.424 INFO - Done: [find element: By.cssSelector: #pwd]
+17:15:56.427 INFO - Executing: [send keys: 2 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #pwd], [a, a, a, a, 1, 1, 1, 1]])
+17:15:56.499 INFO - Done: [send keys: 2 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #pwd], [a, a, a, a, 1, 1, 1, 1]]
+17:15:56.503 INFO - Executing: [find element: By.cssSelector: #login])
+17:15:56.552 INFO - Done: [find element: By.cssSelector: #login]
+17:15:56.555 INFO - Executing: [click: 3 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #login]])
+17:15:57.260 INFO - Done: [click: 3 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #login]]
+17:15:57.265 INFO - Executing: [find elements: By.cssSelector: span.gnbMyname])
+17:15:58.456 INFO - Done: [find elements: By.cssSelector: span.gnbMyname]
+17:15:58.459 INFO - Executing: [is displayed: 4 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: span.gnbMyname]])
+17:15:58.634 INFO - Done: [is displayed: 4 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: span.gnbMyname]]
+17:15:58.637 INFO - Executing: [find element: By.cssSelector: span.gnbMyname])
+17:15:58.821 INFO - Done: [find element: By.cssSelector: span.gnbMyname]
+17:15:58.824 INFO - Executing: [get text: 4 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: span.gnbMyname]])
+17:15:59.322 INFO - Done: [get text: 4 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: span.gnbMyname]]
+17:15:59.328 INFO - Executing: [find elements: By.cssSelector: body])
+17:15:59.377 INFO - Done: [find elements: By.cssSelector: body]
+17:15:59.384 INFO - Executing: [is displayed: 5 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: body]])
+17:15:59.426 INFO - Done: [is displayed: 5 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: body]]
+17:15:59.429 INFO - Executing: [find element: By.cssSelector: .menu3 .deps1])
+17:15:59.474 INFO - Done: [find element: By.cssSelector: .menu3 .deps1]
+17:15:59.477 INFO - Executing: [mousemove: 6 true])
+17:15:59.586 INFO - Done: [mousemove: 6 true]
+17:15:59.589 INFO - Executing: [find elements: By.cssSelector: .menu3 .deps2])
+17:15:59.643 INFO - Done: [find elements: By.cssSelector: .menu3 .deps2]
+17:15:59.646 INFO - Executing: [is displayed: 7 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: .menu3 .deps2]])
+17:15:59.689 INFO - Done: [is displayed: 7 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: .menu3 .deps2]]
+17:15:59.692 INFO - Executing: [find element: By.cssSelector: .menu3 .deps2])
+17:15:59.736 INFO - Done: [find element: By.cssSelector: .menu3 .deps2]
+17:15:59.738 INFO - Executing: [is displayed: 7 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: .menu3 .deps2]])
+17:15:59.796 INFO - Done: [is displayed: 7 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: .menu3 .deps2]]
+17:15:59.799 INFO - Executing: [find element: By.cssSelector: .menu3 .deps2 .list .s1 a])
+17:15:59.853 INFO - Done: [find element: By.cssSelector: .menu3 .deps2 .list .s1 a]
+17:15:59.855 INFO - Executing: [click: 8 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: .menu3 .deps2 .list .s1 a]])
+17:16:00.687 INFO - Done: [click: 8 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: .menu3 .deps2 .list .s1 a]]
+17:16:00.689 INFO - Executing: [take screenshot])
+17:16:01.057 INFO - Done: [take screenshot]
+17:16:01.153 INFO - Executing: [find elements: By.cssSelector: body])
+17:16:01.161 INFO - Done: [find elements: By.cssSelector: body]
+17:16:01.163 INFO - Executing: [is displayed: 9 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: body]])
+17:16:01.227 INFO - Done: [is displayed: 9 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: body]]
+17:16:01.231 INFO - Executing: [find element: By.cssSelector: h1.character a])
+17:16:01.284 INFO - Done: [find element: By.cssSelector: h1.character a]
+17:16:01.286 INFO - Executing: [get text: 10 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: h1.character a]])
+17:16:01.338 INFO - Done: [get text: 10 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: h1.character a]]
+17:16:01.346 INFO - Executing: [find elements: By.cssSelector: #suggestInput])
+17:16:01.393 INFO - Done: [find elements: By.cssSelector: #suggestInput]
+17:16:01.396 INFO - Executing: [is displayed: 11 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #suggestInput]])
+17:16:01.443 INFO - Done: [is displayed: 11 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #suggestInput]]
+17:16:01.446 INFO - Executing: [find element: By.cssSelector: #suggestInput])
+17:16:01.498 INFO - Done: [find element: By.cssSelector: #suggestInput]
+17:16:01.501 INFO - Executing: [send keys: 11 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #suggestInput], [��, ��, ��]])
+17:16:01.621 INFO - Done: [send keys: 11 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #suggestInput], [��, ��, ��]]
+17:16:01.624 INFO - Executing: [send keys to active: [?]])
+17:16:01.790 INFO - Done: [send keys to active: [?]]
+17:16:01.794 INFO - Executing: [find elements: By.cssSelector: body])
+17:16:03.641 INFO - Done: [find elements: By.cssSelector: body]
+17:16:03.644 INFO - Executing: [is displayed: 12 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: body]])
+17:16:03.708 INFO - Done: [is displayed: 12 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: body]]
+17:16:03.711 INFO - Executing: [find element: By.cssSelector: #query])
+17:16:03.768 INFO - Done: [find element: By.cssSelector: #query]
+17:16:03.771 INFO - Executing: [get element attribute: 13 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #query], value])
+17:16:03.831 INFO - Done: [get element attribute: 13 [[FirefoxDriver: firefox on MAC (e7d1de83-1a89-0743-8d8e-235d47ec078d)] -> css selector: #query], value]
+17:16:03.835 INFO - Executing: [delete session: 526d1092-d870-480e-aec6-ed7b5c297674])
+17:16:03.999 INFO - Done: [delete session: 526d1092-d870-480e-aec6-ed7b5c297674]

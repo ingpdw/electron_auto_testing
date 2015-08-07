@@ -19,7 +19,11 @@
   },
   "dependencies": {
     "brace": "^0.5.1",
+    "gulp": "^3.9.0",
+    "gulp-nightwatch": "^0.2.2",
+    "gulp-shell": "^0.4.2",
     "jquery": "^2.1.4",
+    "nightwatch": "^0.7.9",
     "require": "^2.4.20"
   }
 }
