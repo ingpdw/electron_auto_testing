@@ -6,37 +6,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="http://getbootstrap.com/examples/non-responsive/non-responsive.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="./resource/css/style.css">
 <title>test_automation</title>
 </head>
 <body class="container">
+	<!-- header -->
+	<div class="page-header">
+		<h1>테스트 자동화 툴 <span>v1.0</span></h1>
+		<a href="create.html" class="list-group btn btn-lg btn-success"><i class="fa fa-plus-circle"></i> 신규 시나리오 생성</a>
+	</div>
+	<!-- // header -->
+	<!-- content -->
+	<div class="contents">
+		<div class="button-wrap">
+			 <div class="left-wrap">
+				 <a href="#" id="start" class="list-group btn btn-lg btn-primary"><i class="fa fa-play-circle"></i> chrome 시작</a>
+				<a href="#" id="start_ff" class="list-group btn btn-lg btn-primary"><i class="fa fa-play-circle"></i> firefox 시작</a>
+				<a href="#" id="start_ie" class="list-group btn btn-lg btn-primary"><i class="fa fa-play-circle"></i> IE 시작</a>
+			</div>
+		</div>
+	</div>
+	<!-- // content -->
 
-  <div class="page-header">
-    <h1>테스트 자동화 툴</h1>
-    <a href="#" id="start" class="list-group btn btn-lg btn-danger">chrome 시작</a>
-    <a href="#" id="start_ff" class="list-group btn btn-lg btn-danger">firefox 시작</a>
-    <a href="#" id="start_ie" class="list-group btn btn-lg btn-danger">IE 시작</a>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <script src="./resource/js/common.js"></script>
-  <script>
-    var nightwatch = require( './src/nightwatch.js' );
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="./resource/js/common.js"></script>
+	<script>
+		var nightwatch = require( './src/nightwatch.js' );
 
-    jQuery( '#start' ).on( 'click', function( evt ){
-      evt.preventDefault();
-      nightwatch.run();
-    });
+		jQuery( '#start' ).on( 'click', function( evt ){
+			evt.preventDefault();
+			nightwatch.run();
+		});
 
-    jQuery( '#start_ff' ).on( 'click', function( evt ){
-      evt.preventDefault();
-      nightwatch.run_ff();
-    });
+		jQuery( '#start_ff' ).on( 'click', function( evt ){
+			evt.preventDefault();
+			nightwatch.run_ff();
+		});
 
-    jQuery( '#start_ie' ).on( 'click', function( evt ){
-      evt.preventDefault();
-      nightwatch.run_ff();
-    });
-  </script>
+		jQuery( '#start_ie' ).on( 'click', function( evt ){
+			evt.preventDefault();
+			nightwatch.run_ff();
+		});
+	</script>
 </body>
 </html>

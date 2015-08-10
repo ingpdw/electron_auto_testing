@@ -1,0 +1,143 @@
+﻿@charset "utf-8";
+*,
+*:before,
+*:after {
+    @include box-sizing( border-box );
+    -webkit-text-size-adjust: none;
+}
+/* default */
+body, html {
+    margin: 0; padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+*,
+*:after,
+*:before {
+    @include box-sizing(border-box);
+}
+
+body {
+    // line-height: 12px;
+    background: $body-bg;
+    color: $font-color-base;
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    // &:link, &:visited {
+    //     color:  $font-color-base;
+    // }
+    // &:hover,&:active {
+    //     color:  $font-color-base;
+    // }
+    &:focus {
+        outline: none;
+    }
+}
+
+legend {
+    display: none;
+}
+
+img, fieldset {
+    border: 0;
+    outline: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ul, li {
+    margin: 0; padding: 0;
+    list-style-type: none;
+}
+
+p, form, input, select, textarea, fieldset, table {
+    margin: 0; padding: 0;
+    // font-size: $font-size-base;
+    font-family: $font-family-base;
+    vertical-align: middle;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0; padding: 0;
+    border: 0;
+    width: 100%;
+}
+
+.ie7 table {
+    border-collapse: collapse;
+}
+
+th, td {
+    margin: 0; padding: 0;
+}
+
+h1, h2, h3 {
+    margin: 0; padding: 0;
+}
+
+hr {
+    display: none;
+}
+
+em {
+    font-style: normal;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+button,
+input {
+    *overflow: visible;
+    line-height: normal;
+    outline: none;
+    border: 0;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+}
+
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type="search"] {
+    @include box-sizing(content-box);
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
