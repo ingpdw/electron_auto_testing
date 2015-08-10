@@ -1,5 +1,6 @@
 'use strict';
 
+var fs = require( 'fs' );
 var $ = require( 'jquery' );
 
 module.exports = {
@@ -13,8 +14,13 @@ module.exports = {
 
     return params;
   }(),
+  scenarioSave: function( filename, data, callback ){
+    fs.writeFile( filename, data, function(err) {
+      if(err) throw err;
+      typeof callback === 'function' && callback();
+    });
+  },
   addEvent: function(){
-
     $( '#btnBack' ).on( 'click', function( evt ){
       evt.preventDefault();
       history.go( -1 );

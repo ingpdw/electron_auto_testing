@@ -23,8 +23,7 @@
   </div>
 
   <div class="">
-    <a href="#" id="btnExcute1" class="list-group btn btn-lg btn-danger">전체 리스트 수행</a>
-    <a href="#" id="btnExcute2" class="list-group btn btn-lg btn-danger">선택된 리스트 수행</a>
+    <a href="#" id="btnSelectAll" class="list-group btn btn-lg btn-danger">전체 선택</a>
     <a href="#" id="btnExcute" class="list-group btn btn-lg btn-danger">chrome 수행</a>
     <a href="#" id="btnExcute_ff" class="list-group btn btn-lg btn-danger">ff 수행</a>
     <a href="#" id="btnExcute_ie" class="list-group btn btn-lg btn-danger">IE 수행</a>
@@ -39,22 +38,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script>
     require( './resource/js/list.js' ).init();
-    var nightwatch = require( './src/nightwatch.js' );
-
-    jQuery( 'body' ).on( 'click', '#btnExcute', function( evt ){
-      evt.preventDefault();
-      nightwatch.run();
-    });
-
-    jQuery( 'body' ).on( 'click', '#btnExcute_ff', function( evt ){
-      evt.preventDefault();
-      nightwatch.run_ff();
-    });
-
-    jQuery( 'body' ).on( 'click', '#btnExcute_ie', function( evt ){
-      evt.preventDefault();
-      nightwatch.run_ff();
-    });
   </script>
 </body>
 </html>
