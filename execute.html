@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<title>test_automation</title>
+</head>
+<body class="container">
+
+  <div class="page-header">
+    <h1>테스트 자동화 툴</h1>
+    <a href="#" id="start" class="list-group btn btn-lg btn-danger">chrome 시작</a>
+    <a href="#" id="start_ff" class="list-group btn btn-lg btn-danger">firefox 시작</a>
+    <a href="#" id="start_ie" class="list-group btn btn-lg btn-danger">IE 시작</a>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script>
+    var nightwatch = require( './src/nightwatch.js' );
+
+    jQuery( '#start' ).on( 'click', function( evt ){
+      evt.preventDefault();
+      nightwatch.run();
+    });
+
+    jQuery( '#start_ff' ).on( 'click', function( evt ){
+      evt.preventDefault();
+      nightwatch.run_ff();
+    });
+
+    jQuery( '#start_ie' ).on( 'click', function( evt ){
+      evt.preventDefault();
+      nightwatch.run_ff();
+    });
+  </script>
+</body>
+</html>

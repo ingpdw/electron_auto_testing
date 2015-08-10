@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="1"
             tests="3">
 
   <testsuite name="bns_test"
-    errors="0" failures="1" hostname="" id="" package="bns_test" skipped="1"
-    tests="3" time="19.02" timestamp="Fri, 07 Aug 2015 08:56:35 GMT">
+    errors="1" failures="1" hostname="" id="" package="bns_test" skipped="2"
+    tests="3" time="10.54" timestamp="Mon, 10 Aug 2015 01:32:51 GMT">
   
-    <testcase name="bns-main-login" time="6.158" assertions="4">
+    <testcase name="bns-main-login" time="10.54" assertions="3">
 
     
 
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="bns-go-world" time="12.86" assertions="4">
-
-    
-
-    
-
-      <failure message="Timed out while waiting for element &lt;body&gt; to be present for 5000 milliseconds.">Timed out while waiting for element &lt;body&gt; to be present for 5000 milliseconds.: Expected &quot;visible&quot; but got: &quot;not found&quot;
+      <failure message="Timed out while waiting for element &lt;span.gnbMyname&gt; to be present for 5000 milliseconds.">Timed out while waiting for element &lt;span.gnbMyname&gt; to be present for 5000 milliseconds.: Expected &quot;visible&quot; but got: &quot;not found&quot;
     at F.WaitForElement.fail (/Users/pdw/Documents/workspace/test_automation/node_modules/nightwatch/lib/api/element-commands/_waitForElement.js:193:15)
     at F.WaitForElementPresent.elementNotFound (/Users/pdw/Documents/workspace/test_automation/node_modules/nightwatch/lib/api/element-commands/waitForElementPresent.js:57:15)
     at Object.&lt;anonymous&gt; (/Users/pdw/Documents/workspace/test_automation/node_modules/nightwatch/lib/api/element-commands/_waitForElement.js:220:17)
@@ -38,8 +25,18 @@
 
     
     </testcase>
+      <system-err>
+        Unable to locate element: &quot;#id&quot; using: css selector
+Unable to locate element: &quot;#pwd&quot; using: css selector
+Unable to locate element: &quot;#login&quot; using: css selector
+      </system-err>
   
   
+    
+    <testcase
+      name="bns-go-world">
+      <skipped />
+    </testcase>
     
     <testcase
       name="bns-search">
