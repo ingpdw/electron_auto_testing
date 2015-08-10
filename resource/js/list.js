@@ -80,7 +80,7 @@ module.exports = {
     var pId = common.params.product,
         This = this;
 
-    $( 'h1' ).append( pId );
+    $( 'h2' ).append( pId );
 
     $.ajax({
       method: 'get',
@@ -93,7 +93,7 @@ module.exports = {
           var tmp = [];
 
           if( !item.length ){
-            $( '#testList' ).append( '<a href="index.html">데이터 없음</a>' );
+            $( '#testList' ).append( '<div class="null-wrap"><a href="index.html">데이터 없음</a></div>' );
             return;
           }
 

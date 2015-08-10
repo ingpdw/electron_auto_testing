@@ -16,7 +16,7 @@ app.on('window-all-closed', function() {
 app.on('ready', function() {
   mainWindow = new BrowserWindow({
     title: 'test_automation',
-    width: 600
+    width: 970
     ,height: 600
   });
 
