@@ -16,7 +16,8 @@
   </div>
 
   <div class="">
-    <a href="index.html" id="btnList" class="list-group btn btn-lg btn-success">리스트</a>
+    <a href="#" id="btnBack" class="list-group btn btn-lg btn-success">back</a>
+    <a href="#" id="btnList" class="list-group btn btn-lg btn-success">리스트</a>
     <a href="create.html" id="btnUpdate" class="list-group btn btn-lg btn-success">수정</a>
     <a href="#" id="btnExcute" class="list-group btn btn-lg btn-danger">chrome 수행</a>
     <a href="#" id="btnExcute_ff" class="list-group btn btn-lg btn-danger">ff 수행</a>
@@ -35,8 +36,8 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/ace.js"></script>
-  <script src="./resource/js/common.js"></script>
   <script>
+    var view = require( './resource/js/view' ).init();
     var nightwatch = require( './src/nightwatch.js' );
 
     jQuery( '#btnExcute' ).on( 'click', function( evt ){

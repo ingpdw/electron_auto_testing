@@ -17,8 +17,9 @@
     <h1>신규 생성 / 수정</h1>
   </div>
   <div class="">
-    <a href="#" id="btnSave" class="list-group btn btn-lg btn-success">save</a>
     <a href="#" id="btnBack" class="list-group btn btn-lg btn-success">back</a>
+    <a href="#" id="btnSave" class="list-group btn btn-lg btn-success">save</a>
+
   </div>
 
   <div class="">
@@ -46,6 +47,8 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/ace.js"></script>
-  <script src="./resource/js/common.js"></script>
+  <script>
+    require( './resource/js/create.js' ).init();
+  </script>
 </body>
 </html>

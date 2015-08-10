@@ -18,5 +18,13 @@ module.exports = {
         configFile: './src/nightwatch_ff.json'
       }))
       .on('end', function() {alert('end')});
+  },
+
+  run_ie: function(){
+    gulp.src('')
+      .pipe(nightwatch({
+        configFile: './src/nightwatch_ie.json'
+      }))
+      .on('end', function() {alert('end')});
   }
 };

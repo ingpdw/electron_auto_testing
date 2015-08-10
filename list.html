@@ -18,6 +18,7 @@
   </div>
 
   <div class="">
+    <a href="#" id="btnBack" class="list-group btn btn-lg btn-success">back</a>
     <a href="index.html" id="btnIndex" class="list-group btn btn-lg btn-success">메인</a>
   </div>
 
@@ -36,8 +37,8 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <script src="./resource/js/common.js"></script>
   <script>
+    require( './resource/js/list.js' ).init();
     var nightwatch = require( './src/nightwatch.js' );
 
     jQuery( 'body' ).on( 'click', '#btnExcute', function( evt ){
