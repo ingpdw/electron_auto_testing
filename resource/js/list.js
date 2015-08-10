@@ -23,10 +23,13 @@ module.exports = {
       success( data ){
         var item = '', len = 0;
         if( data.result === 'success' ){
+          if( !data.data ) return;
+
           item = data.data;
           len = item.length;
 
-          console.log( item );
+          common.removeAllFiles( './tests' );
+          common.removeAllFiles( './reports' );
 
           for( var i = 0; item[ i ]; i++ ){
             var _item = item[ i ];

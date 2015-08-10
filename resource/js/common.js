@@ -14,6 +14,12 @@ module.exports = {
 
     return params;
   }(),
+  removeAllFiles: function( dir ){
+    fs.readdirSync( dir ).forEach(function( fileName ) {
+       var currPath = dir + '/' + fileName;
+      fs.unlinkSync( currPath );
+    });
+  },
   scenarioSave: function( filename, data, callback ){
     fs.writeFile( filename, data, function(err) {
       if(err) throw err;
