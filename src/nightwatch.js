@@ -2,32 +2,51 @@
 
 var gulp = require( 'gulp' );
 var nightwatch = require( 'gulp-nightwatch' );
+var configSrc = './src/nightwatch.json';
 
 module.exports = {
   run: function(){
     gulp.src('')
       .pipe(nightwatch({
-        configFile: './src/nightwatch.json'
+        configFile: configSrc,
+        cliArgs: {
+          env: 'chrome'
+        }
       }))
-      .on('error', function(){alert('error')})
-      .on('end', function() {alert('end')});
+      .on('error', function(){
+        alert('error')
+      })
+      .on('end', function(){
+        alert('end')
+      });
   },
 
   run_ff: function(){
     gulp.src('')
       .pipe(nightwatch({
-        configFile: './src/nightwatch_ff.json'
+        configFile: configSrc
       }))
-      .on('error', function(){alert('error')})
-      .on('end', function() {alert('end')});
+      .on('error', function(){
+        alert('error')
+      })
+      .on('end', function(){
+        alert('end')
+      });
   },
 
   run_ie: function(){
     gulp.src('')
       .pipe(nightwatch({
-        configFile: './src/nightwatch_ie.json'
+        configFile: configSrc,
+        cliArgs: {
+          env: 'ie'
+        }
       }))
-      .on('error', function(){alert('error')})
-      .on('end', function() {alert('end')});
+      .on('error', function(){
+        alert('error')
+      })
+      .on('end', function(){
+        alert('end')
+      });
   }
 };
