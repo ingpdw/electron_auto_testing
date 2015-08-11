@@ -1,27 +1,34 @@
-13:33:54.417 INFO - Launching a standalone server
+13:37:13.177 INFO - Launching a standalone server
 Setting system property webdriver.chrome.driver to ./drivers/chromedriver
-13:33:54.447 INFO - Java: Apple Inc. 20.65-b04-466.1
-13:33:54.447 INFO - OS: Mac OS X 10.10.3 x86_64
-13:33:54.454 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
-13:33:54.508 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
-13:33:54.540 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-13:33:54.540 INFO - Version Jetty/5.1.x
-13:33:54.541 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-13:33:54.542 INFO - Started HttpContext[/selenium-server,/selenium-server]
-13:33:54.542 INFO - Started HttpContext[/,/]
-13:33:54.571 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@379e8f17
-13:33:54.571 INFO - Started HttpContext[/wd,/wd]
-13:33:54.576 INFO - Started SocketListener on 0.0.0.0:4444
-13:33:54.577 INFO - Started org.openqa.jetty.jetty.Server@7c4c51
-13:33:54.788 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=55c4556181e7975c10d88e27, chromeOptions={args=[start-fullscreen]}}]])
-13:33:54.796 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=55c4556181e7975c10d88e27, chromeOptions={args=[start-fullscreen]}}]
-Starting ChromeDriver (v2.9.248307) on port 23990
-13:33:56.664 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=55c4556181e7975c10d88e27, chromeOptions={args=[start-fullscreen]}}]]
-13:33:56.691 INFO - Executing: [get: http://rc.bns.plaync.com])
-[2.328][SEVERE]: Unable to receive message from renderer
-13:33:57.428 INFO - Done: [get: http://rc.bns.plaync.com]
-13:33:57.437 INFO - Executing: [find elements: By.cssSelector: body])
-13:33:57.980 WARN - Exception thrown
+13:37:13.217 INFO - Java: Apple Inc. 20.65-b04-466.1
+13:37:13.218 INFO - OS: Mac OS X 10.10.3 x86_64
+13:37:13.230 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+13:37:13.285 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
+13:37:13.326 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:37:13.327 INFO - Version Jetty/5.1.x
+13:37:13.328 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+13:37:13.328 INFO - Started HttpContext[/selenium-server,/selenium-server]
+13:37:13.328 INFO - Started HttpContext[/,/]
+13:37:13.361 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@7786df0f
+13:37:13.361 INFO - Started HttpContext[/wd,/wd]
+13:37:13.367 INFO - Started SocketListener on 0.0.0.0:4444
+13:37:13.367 INFO - Started org.openqa.jetty.jetty.Server@42698403
+13:37:13.612 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=55c4556181e7975c10d88e27, chromeOptions={args=[start-fullscreen]}}]])
+13:37:13.626 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=55c4556181e7975c10d88e27, chromeOptions={args=[start-fullscreen]}}]
+Starting ChromeDriver (v2.9.248307) on port 41780
+13:37:15.574 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=55c4556181e7975c10d88e27, chromeOptions={args=[start-fullscreen]}}]]
+13:37:15.603 INFO - Executing: [get: http://rc.bns.plaync.com])
+13:37:16.577 INFO - Done: [get: http://rc.bns.plaync.com]
+13:37:16.585 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:16.625 INFO - Done: [find elements: By.cssSelector: body]
+13:37:16.628 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (0d3f8e3efa2fc84842a5fbae2442b898)] -> css selector: body]])
+13:37:16.712 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (0d3f8e3efa2fc84842a5fbae2442b898)] -> css selector: body]]
+13:37:16.718 INFO - Executing: [get title])
+13:37:16.780 INFO - Done: [get title]
+13:37:16.784 INFO - Executing: [find element: By.cssSelector: #id])
+13:37:17.725 INFO - Done: [find element: By.cssSelector: #id]
+13:37:17.730 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (0d3f8e3efa2fc84842a5fbae2442b898)] -> css selector: #id], [b, n, s, w, m, c, 0, 0, 1]])
+13:37:18.458 WARN - Exception thrown
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
@@ -29,10 +36,9 @@ from unknown error: web view not found
 Command duration or timeout: 4 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
@@ -40,38 +46,41 @@ Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browse
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy2.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:354)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:63)
+	at com.sun.proxy.$Proxy3.sendKeys(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:49)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:1)
 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
 	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
 	at java.lang.Thread.run(Thread.java:695)
-13:33:57.984 WARN - Exception: no such window: target window already closed
+13:37:18.462 WARN - Exception: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 4 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-13:33:58.527 INFO - Executing: [find elements: By.cssSelector: body])
-13:33:58.777 WARN - Exception thrown
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:18.516 INFO - Executing: [find element: By.cssSelector: #pwd])
+13:37:18.839 ERROR - Unexpected exception during findElement
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
@@ -79,10 +88,10 @@ from unknown error: web view not found
 Command duration or timeout: 3 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+*** Element info: {Using=css selector, value=#pwd}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
@@ -90,38 +99,26 @@ Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browse
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:441)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
 	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
 	at java.lang.Thread.run(Thread.java:695)
-13:33:58.778 WARN - Exception: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=44.0.2403.130)
-  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-13:33:59.320 INFO - Executing: [find elements: By.cssSelector: body])
-13:33:59.551 WARN - Exception thrown
+13:37:18.841 WARN - Exception thrown
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
@@ -129,10 +126,10 @@ from unknown error: web view not found
 Command duration or timeout: 3 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+*** Element info: {Using=css selector, value=#pwd}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
@@ -140,49 +137,49 @@ Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browse
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:441)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
 	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
 	at java.lang.Thread.run(Thread.java:695)
-13:33:59.552 WARN - Exception: no such window: target window already closed
+13:37:18.842 WARN - Exception: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 3 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+*** Element info: {Using=css selector, value=#pwd}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-13:34:00.092 INFO - Executing: [find elements: By.cssSelector: body])
-13:34:00.408 WARN - Exception thrown
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:18.877 INFO - Executing: [find element: By.cssSelector: #login])
+13:37:19.178 ERROR - Unexpected exception during findElement
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
+Command duration or timeout: 2 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+*** Element info: {Using=css selector, value=#login}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
@@ -190,49 +187,37 @@ Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browse
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:441)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
 	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
 	at java.lang.Thread.run(Thread.java:695)
-13:34:00.409 WARN - Exception: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=44.0.2403.130)
-  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-13:34:00.960 INFO - Executing: [find elements: By.cssSelector: body])
-13:34:01.258 WARN - Exception thrown
+13:37:19.179 WARN - Exception thrown
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
+Command duration or timeout: 2 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+*** Element info: {Using=css selector, value=#login}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
@@ -240,38 +225,38 @@ Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browse
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:441)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
 	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
 	at java.lang.Thread.run(Thread.java:695)
-13:34:01.259 WARN - Exception: no such window: target window already closed
+13:37:19.180 WARN - Exception: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
+Command duration or timeout: 2 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+*** Element info: {Using=css selector, value=#login}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-13:34:01.821 INFO - Executing: [find elements: By.cssSelector: body])
-13:34:02.144 WARN - Exception thrown
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:19.214 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:19.466 WARN - Exception thrown
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
@@ -280,9 +265,9 @@ Command duration or timeout: 2 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
 *** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
@@ -309,7 +294,7 @@ Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browse
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
 	at java.lang.Thread.run(Thread.java:695)
-13:34:02.145 WARN - Exception: no such window: target window already closed
+13:37:19.467 WARN - Exception: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -317,61 +302,11 @@ Command duration or timeout: 2 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
 *** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-13:34:02.710 INFO - Executing: [find elements: By.cssSelector: body])
-13:34:03.058 WARN - Exception thrown
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=44.0.2403.130)
-  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
-	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
-	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
-	at java.lang.Thread.run(Thread.java:695)
-13:34:03.059 WARN - Exception: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=44.0.2403.130)
-  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-13:34:03.645 INFO - Executing: [find elements: By.cssSelector: body])
-13:34:03.986 WARN - Exception thrown
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:20.022 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:20.288 WARN - Exception thrown
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
@@ -380,9 +315,9 @@ Command duration or timeout: 3 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
 *** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
@@ -409,7 +344,7 @@ Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browse
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
 	at java.lang.Thread.run(Thread.java:695)
-13:34:03.987 WARN - Exception: no such window: target window already closed
+13:37:20.289 WARN - Exception: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -417,22 +352,22 @@ Command duration or timeout: 3 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
 *** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-13:34:04.555 INFO - Executing: [find elements: By.cssSelector: body])
-13:34:04.883 WARN - Exception thrown
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:20.841 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:21.072 WARN - Exception thrown
 org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
+Command duration or timeout: 2 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
 *** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
@@ -459,20 +394,7 @@ Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browse
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
 	at java.lang.Thread.run(Thread.java:695)
-13:34:04.884 WARN - Exception: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=44.0.2403.130)
-  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
-*** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-13:34:05.454 INFO - Executing: [find elements: By.cssSelector: body])
-13:34:05.758 WARN - Exception thrown
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+13:37:21.073 WARN - Exception: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -480,9 +402,22 @@ Command duration or timeout: 2 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
 *** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:21.637 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:21.844 WARN - Exception thrown
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
@@ -509,7 +444,20 @@ Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browse
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
 	at java.lang.Thread.run(Thread.java:695)
-13:34:05.759 WARN - Exception: no such window: target window already closed
+13:37:21.845 WARN - Exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:22.412 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:22.607 WARN - Exception thrown
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
   (Session info: chrome=44.0.2403.130)
   (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
@@ -517,8 +465,345 @@ Command duration or timeout: 2 milliseconds
 Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
 System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
 *** Element info: {Using=css selector, value=body}
-Session ID: ecffe5dd0f76f0e8ff1635a4c7c352bb
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.MxeAKn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
-13:34:05.827 INFO - Executing: [delete session: 17733931-c9d7-4154-a31a-9e391807e407])
-13:34:06.333 INFO - Done: [delete session: 17733931-c9d7-4154-a31a-9e391807e407]
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+13:37:22.609 WARN - Exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:23.169 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:23.370 WARN - Exception thrown
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+13:37:23.371 WARN - Exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:23.918 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:24.149 WARN - Exception thrown
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+13:37:24.150 WARN - Exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:24.711 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:24.907 WARN - Exception thrown
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+13:37:24.908 WARN - Exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:25.458 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:25.706 WARN - Exception thrown
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+13:37:25.707 WARN - Exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:26.288 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:26.490 WARN - Exception thrown
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+13:37:26.491 WARN - Exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:27.042 INFO - Executing: [find elements: By.cssSelector: body])
+13:37:27.269 WARN - Exception thrown
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:173)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:49)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+13:37:27.270 WARN - Exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=44.0.2403.130)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.10.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pdwui-mbp.korea.ncsoft.corp', ip: '172.20.12.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.3', java.version: '1.6.0_65'
+*** Element info: {Using=css selector, value=body}
+Session ID: 0d3f8e3efa2fc84842a5fbae2442b898
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=/var/folders/8g/3llp93s97yx06w80xrtsh4440000gn/T/.org.chromium.Chromium.lpn9jn}, rotatable=false, locationContextEnabled=true, version=44.0.2403.130, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+13:37:27.336 INFO - Executing: [delete session: 79d02bc4-1abd-40b6-a033-c3601482ddb3])
+13:37:27.845 INFO - Done: [delete session: 79d02bc4-1abd-40b6-a033-c3601482ddb3]
