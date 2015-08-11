@@ -3,6 +3,9 @@
 var fs = require( 'fs' );
 var $ = require( 'jquery' );
 var Q = require( 'q' );
+var gulp = require( 'gulp' );
+var concat = require( 'gulp-concat' );
+
 
 module.exports = {
   apiUrl: 'http://ui-static.korea.ncsoft.corp:5000',
@@ -40,6 +43,18 @@ module.exports = {
     });
   },
 
+  reports: function( callback ){
+    var dir = './reports'
+    var file = 'reports.js';
+
+    gulp.src( dir + '/*.xml')
+      .pipe( concat( file ) )
+      .pipe( gulp.dest( dir ) )
+      .on( 'end', function(){
+        typeof callback === 'function' && callback( dir + '/' + file );
+      })
+  },
+
   writeFile: function( _ids ){
     var deferred = Q.defer();
     var This = this;
@@ -53,10 +68,8 @@ module.exports = {
         var item = data.data;
         var len = item.length;
 
-        console.log( item );
-
-        //This.removeAllFiles( './tests' );
-        //This.removeAllFiles( './reports' );
+        This.removeAllFiles( './tests' );
+        This.removeAllFiles( './reports' );
 
         for( var i = 0; item[ i ]; i++ ){
 

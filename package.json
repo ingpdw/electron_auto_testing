@@ -20,6 +20,7 @@
   "dependencies": {
     "brace": "^0.5.1",
     "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
     "gulp-nightwatch": "^0.2.2",
     "gulp-shell": "^0.4.2",
     "jquery": "^2.1.4",
