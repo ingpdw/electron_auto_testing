@@ -1,10 +1,8 @@
-var waitTime = 5000;
+var waitTime = 8000;
 
 module.exports = {
 
   'bns-main-login' : function (browser) {
-
-    var data = browser.globals;
 
     browser
       .url('http://rc.bns.plaync.com')
@@ -13,15 +11,17 @@ module.exports = {
 
       .assert.title('plaync 블레이드 & 소울')
 
-      .setValue('#id', _data.id)
+      .setValue('#id', 'bnswmc001')
 
-      .setValue('#pwd', _data.pwd)
+      .setValue('#pwd', 'aaaa1111')
 
       .click('#login')
 
-      .waitForElementVisible( 'span.gnbMyname', waitTime )
+      .waitForElementVisible('body', waitTime)
 
-      .assert.containsText( 'span.gnbMyname', '알씨일이삼사오육칠팔구십일이삼사' );
+      .assert.containsText( 'span.gnbMyname', '알씨일이삼사오육칠팔구십일이삼사' )
+      
+      .end();
 
   }
 };

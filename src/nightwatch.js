@@ -9,6 +9,7 @@ module.exports = {
       .pipe(nightwatch({
         configFile: './src/nightwatch.json'
       }))
+      .on('error', function(){alert('error')})
       .on('end', function() {alert('end')});
   },
 
@@ -17,6 +18,7 @@ module.exports = {
       .pipe(nightwatch({
         configFile: './src/nightwatch_ff.json'
       }))
+      .on('error', function(){alert('error')})
       .on('end', function() {alert('end')});
   },
 
@@ -25,6 +27,7 @@ module.exports = {
       .pipe(nightwatch({
         configFile: './src/nightwatch_ie.json'
       }))
+      .on('error', function(){alert('error')})
       .on('end', function() {alert('end')});
   }
 };

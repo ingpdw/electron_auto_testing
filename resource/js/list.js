@@ -1,81 +1,69 @@
 'use strict';
 
+var Q = require( 'q' );
 var $ = require( 'jquery' );
 var nightwatch = require( '../../src/nightwatch.js' );
 var common = require( './common' );
     common.addEvent();
 
 module.exports = {
-  writeFile: function( callback ){
 
-    var _ids = [];
-    $( 'input[name=scenario]:checked' ).each(function( idx ){
-      var $this = $( this );
-      _ids.push( $this.val() );
-    });
-
-    _ids = _ids.join( ',' );
-
-    $.ajax({
-      method: 'get',
-      url: common.apiUrl + '/selectMulti',
-      data: {id: _ids},
-      success( data ){
-        var item = '', len = 0;
-        if( data.result === 'success' ){
-          if( !data.data ) return;
-
-          item = data.data;
-          len = item.length;
-
-          common.removeAllFiles( './tests' );
-          common.removeAllFiles( './reports' );
-
-          for( var i = 0; item[ i ]; i++ ){
-            var _item = item[ i ];
-            common.scenarioSave( './tests/' + _item._id + '.js', _item.code, function(){
-              if( !--len ){
-                  typeof callback === 'function' && callback();
-              }
-            });
-          }
-        }
-      },
-      error( data ){}
-    });
-
-
-  },
   addEvent: function(){
 
     var This = this;
 
-    jQuery( 'body' ).on( 'click', '#btnSelectAll', function( evt ){
+    jQuery( '#btnSelectAll' ).on( 'click', function( evt ){
       evt.preventDefault();
       $( 'input[name=scenario]' ).prop( 'checked', true );
     });
 
-    jQuery( 'body' ).on( 'click', '#btnExcute', function( evt ){
+    jQuery( '#btnExcute' ).on( 'click', function( evt ){
       evt.preventDefault();
-      This.writeFile(function(){
-          nightwatch.run();
-      });
+
+      var writeFile = This.writeFile();
+      writeFile.then(function(){
+        nightwatch.run();
+      }, function(){});
     });
 
-    jQuery( 'body' ).on( 'click', '#btnExcute_ff', function( evt ){
+    jQuery( '#btnExcute_ff' ).on( 'click', function( evt ){
       evt.preventDefault();
-      This.writeFile(function(){
+      var writeFile = This.writeFile();
+      writeFile.then(function(){
         nightwatch.run_ff();
-      });
+      }, function(){});
     });
 
-    jQuery( 'body' ).on( 'click', '#btnExcute_ie', function( evt ){
+    jQuery( '#btnExcute_ie' ).on( 'click', function( evt ){
       evt.preventDefault();
-      This.writeFile(function(){
+      var writeFile = This.writeFile();
+      writeFile.then(function(){
         nightwatch.run_ie();
-      });
+      }, function(){});
     });
   },
+
+  writeFile: function(){
+    var deferred = Q.defer();
+    var _ids = [];
+
+    $( 'input[name=scenario]:checked' ).each(function( idx ){
+      var $this = $( this );
+      _ids.push( $this.val() );
+    });
+    _ids = _ids.join( ',' );
+
+    var scenarios = common.writeFile( _ids );
+    scenarios.then(function(){
+      deferred.resolve();
+    }, function( err ){
+      deferred.reject();
+    });
+
+    return deferred.promise;
+
+  },
+
   init: function(){
     var pId = common.params.product,
         This = this;
@@ -106,7 +94,6 @@ module.exports = {
           }
 
           $( '#testList' ).append( tmp.join( '' ) );
-
           This.addEvent();
         }
       },

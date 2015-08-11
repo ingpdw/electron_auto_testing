@@ -1,12 +1,27 @@
 'use strict';
 
+var Q = require( 'q' );
 var $ = require( 'jquery' );
-
+var nightwatch = require( '../../src/nightwatch.js' );
 var common = require( './common' );
 common.addEvent();
 
 module.exports = {
-  init: function(){
+  writeFile: function( callback ){
+    var deferred = Q.defer();
+    var _ids = common.params.id;
+    var scenarios = common.writeFile( _ids );
+    scenarios.then(function(){
+      deferred.resolve();
+    }, function( err ){
+      deferred.reject();
+    });
+
+    return deferred.promise;
+  },
+  addEvent: function( sid ){
+
+    var This = this;
 
     $( '#btnUpdate' ).on( 'click', function( evt ){
       evt.preventDefault();
@@ -18,6 +33,41 @@ module.exports = {
       location.href = 'list.html?product=' + common.params.product;
     });
 
+    jQuery( '#btnSelectAll' ).on( 'click', function( evt ){
+      evt.preventDefault();
+      $( 'input[name=scenario]' ).prop( 'checked', true );
+    });
+
+    jQuery( '#btnExcute' ).on( 'click', function( evt ){
+      evt.preventDefault();
+
+      var writeFile = This.writeFile();
+      writeFile.then(function(){
+        nightwatch.run();
+      }, function(){});
+    });
+
+    jQuery( '#btnExcute_ff' ).on( 'click', function( evt ){
+      evt.preventDefault();
+
+      var writeFile = This.writeFile();
+      writeFile.then(function(){
+        nightwatch.run_ff();
+      }, function(){});
+    });
+
+    jQuery( '#btnExcute_ie' ).on( 'click', function( evt ){
+      evt.preventDefault();
+
+      var writeFile = This.writeFile();
+      writeFile.then(function(){
+        nightwatch.run_ie();
+      }, function(){});
+    });
+  },
+  init: function(){
+
+    var This = this;
     var editor =  '';
     var $name = $( '#name' ),
         $product = $(' #product' ),
@@ -39,12 +89,11 @@ module.exports = {
 
           editor.setValue( item.code, 1 ); //move cursor to the end
           editor.setReadOnly( true );
+
+          This.addEvent( common.params.id );
         }
       },
       error( data ){}
     });
-
-    btnUpdate
-
   }
 };
