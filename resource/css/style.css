@@ -67,12 +67,20 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 
 .btn i { padding-left: 10px; }
 
+.null-wrap { text-align: center; padding: 50px 0; }
+.null-wrap a { color: #FFF; font-size: 16px; }
+
 html { height: 100%; }
 
 body { height: 100%; position: relative; }
 
 a.list-group-item { background-color: #2d2f34; color: #d8dae3; border: 0; margin: 0 0 2px; color: #82848b; }
 a.list-group-item:hover { background-color: #393a40; color: #FFF; }
+
+div.list-group-item { background-color: #2d2f34; color: #d8dae3; border: 0; margin: 0 0 2px; color: #82848b; }
+div.list-group-item:hover { background-color: #393a40; color: #FFF; }
+div.list-group-item input { margin: 0 5px 0 0; vertical-align: middle; }
+div.list-group-item a { color: #82848b; }
 
 .form-group label { width: 10%; display: inline-block; vertical-align: middle; *vertical-align: auto; *zoom: 1; *display: inline; }
 .form-group label:before { content: ""; font-size: 12px; font-family: FontAwesome; font-weight: bold; color: #ffffff; padding-right: 5px; }

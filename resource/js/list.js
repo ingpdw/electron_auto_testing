@@ -81,15 +81,15 @@ module.exports = {
           var tmp = [];
 
           if( !item.length ){
-            $( '#testList' ).append( '<div class="null-wrap"><a href="index.html">데이터 없음</a></div>' );
+            $( '#testList' ).append( '<div class="null-wrap"><a href="index.html"><i class="fa fa-exclamation-triangle"></i> 데이터 없음</a></div>' );
             return;
           }
 
           for( var i = 0; item[ i ]; i++ ){
             var _item = item[ i ];
-            var _template = '<input type="checkbox" name="scenario" value="'+_item._id+'"/>'+
-              '<a href="view.html?product='+ _item.product +'&id='+_item._id+'" class="list-group-item">'+
-              _item.name +'</a>'
+            var _template = '<div class="list-group-item"><input type="checkbox" name="scenario" value="'+_item._id+'"/>'+
+              '<a href="view.html?product='+ _item.product +'&id='+_item._id+'" >'+
+              _item.name +'</a></div>'
             tmp.push( _template );
           }
 

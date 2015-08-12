@@ -38,6 +38,25 @@ a.list-group-item {
 		color:#FFF;
 	}
 }
+
+div.list-group-item {
+	background-color:#2d2f34;
+	color:#d8dae3;
+	border:0;
+	margin:0 0 2px;
+	color:#82848b;
+	&:hover {
+		background-color:#393a40;
+		color:#FFF;
+	}
+	input {
+		margin:0 5px 0 0;
+		vertical-align:middle;
+	}
+	a {
+		color:#82848b;
+	}
+}
 .form-group {
 	label {
 		width:10%;
