@@ -39,7 +39,7 @@ module.exports = {
   removeAllFiles: function( dir ){
     fs.readdirSync( dir ).forEach(function( fileName ) {
        var currPath = dir + '/' + fileName;
-      fs.unlinkSync( currPath );
+       fs.unlinkSync( currPath );
     });
   },
 

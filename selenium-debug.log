@@ -1,49 +1,50 @@
-17:43:50.809 INFO - Launching a standalone server
+09:48:46.710 INFO - Launching a standalone server
 Setting system property webdriver.chrome.driver to ./drivers/chromedriver
 Setting system property webdriver.ie.driver to ./drivers/IEDriverServerWin64.exe
-17:43:50.840 INFO - Java: Apple Inc. 20.65-b04-466.1
-17:43:50.840 INFO - OS: Mac OS X 10.10.3 x86_64
-17:43:50.848 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
-17:43:50.905 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
-17:43:50.930 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-17:43:50.930 INFO - Version Jetty/5.1.x
-17:43:50.931 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-17:43:50.931 INFO - Started HttpContext[/selenium-server,/selenium-server]
-17:43:50.932 INFO - Started HttpContext[/,/]
-17:43:50.961 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@7786df0f
-17:43:50.961 INFO - Started HttpContext[/wd,/wd]
-17:43:50.967 INFO - Started SocketListener on 0.0.0.0:4444
-17:43:50.967 INFO - Started org.openqa.jetty.jetty.Server@1d5a0305
-17:43:51.176 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=55c4556181e7975c10d88e27}]])
-17:43:51.184 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=55c4556181e7975c10d88e27}]
-17:43:54.892 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=55c4556181e7975c10d88e27}]]
-17:43:54.903 INFO - Executing: [get: http://rc.bns.plaync.com])
-17:44:01.783 INFO - Done: [get: http://rc.bns.plaync.com]
-17:44:01.790 INFO - Executing: [find elements: By.cssSelector: body])
-17:44:01.891 INFO - Done: [find elements: By.cssSelector: body]
-17:44:01.895 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: body]])
-17:44:01.928 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: body]]
-17:44:01.933 INFO - Executing: [get title])
-17:44:01.974 INFO - Done: [get title]
-17:44:01.980 INFO - Executing: [find element: By.cssSelector: #id])
-17:44:02.028 INFO - Done: [find element: By.cssSelector: #id]
-17:44:02.032 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: #id], [b, n, s, w, m, c, 0, 0, 1]])
-17:44:02.120 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: #id], [b, n, s, w, m, c, 0, 0, 1]]
-17:44:02.124 INFO - Executing: [find element: By.cssSelector: #pwd])
-17:44:02.168 INFO - Done: [find element: By.cssSelector: #pwd]
-17:44:02.171 INFO - Executing: [send keys: 2 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: #pwd], [a, a, a, a, 1, 1, 1, 1]])
-17:44:02.250 INFO - Done: [send keys: 2 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: #pwd], [a, a, a, a, 1, 1, 1, 1]]
-17:44:02.253 INFO - Executing: [find element: By.cssSelector: #login])
-17:44:02.312 INFO - Done: [find element: By.cssSelector: #login]
-17:44:02.315 INFO - Executing: [click: 3 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: #login]])
-17:44:03.132 INFO - Done: [click: 3 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: #login]]
-17:44:03.136 INFO - Executing: [find elements: By.cssSelector: body])
-17:44:04.317 INFO - Done: [find elements: By.cssSelector: body]
-17:44:04.323 INFO - Executing: [is displayed: 4 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: body]])
-17:44:04.384 INFO - Done: [is displayed: 4 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: body]]
-17:44:04.388 INFO - Executing: [find element: By.cssSelector: span.gnbMyname])
-17:44:04.446 INFO - Done: [find element: By.cssSelector: span.gnbMyname]
-17:44:04.449 INFO - Executing: [get text: 5 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: span.gnbMyname]])
-17:44:04.538 INFO - Done: [get text: 5 [[FirefoxDriver: firefox on MAC (6331f613-1c7a-534c-84d4-e570220d64b0)] -> css selector: span.gnbMyname]]
-17:44:04.542 INFO - Executing: [delete session: b3db69cf-c589-4dec-9b88-c516438ca209])
-17:44:04.701 INFO - Done: [delete session: b3db69cf-c589-4dec-9b88-c516438ca209]
+09:48:46.769 INFO - Java: Oracle Corporation 24.75-b04
+09:48:46.770 INFO - OS: Mac OS X 10.10.4 x86_64
+09:48:46.787 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+09:48:46.874 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
+09:48:46.954 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+09:48:46.954 INFO - Version Jetty/5.1.x
+09:48:46.956 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+09:48:46.957 INFO - Started HttpContext[/selenium-server,/selenium-server]
+09:48:46.957 INFO - Started HttpContext[/,/]
+09:48:46.986 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@4ba7da17
+09:48:46.986 INFO - Started HttpContext[/wd,/wd]
+09:48:46.992 INFO - Started SocketListener on 0.0.0.0:4444
+09:48:46.992 INFO - Started org.openqa.jetty.jetty.Server@725b29e0
+09:48:47.292 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=55c4556181e7975c10d88e27, chromeOptions={args=[use-fake-device-for-media-stream, use-fake-ui-for-media-stream]}}]])
+09:48:47.308 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=55c4556181e7975c10d88e27, chromeOptions={args=[use-fake-device-for-media-stream, use-fake-ui-for-media-stream]}}]
+Starting ChromeDriver (v2.9.248307) on port 14800
+09:48:49.145 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=55c4556181e7975c10d88e27, chromeOptions={args=[use-fake-device-for-media-stream, use-fake-ui-for-media-stream]}}]]
+09:48:49.163 INFO - Executing: [get: http://rc.bns.plaync.com])
+09:48:50.112 INFO - Done: [get: http://rc.bns.plaync.com]
+09:48:50.119 INFO - Executing: [find elements: By.cssSelector: body])
+09:48:50.172 INFO - Done: [find elements: By.cssSelector: body]
+09:48:50.175 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: body]])
+09:48:51.213 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: body]]
+09:48:51.218 INFO - Executing: [get title])
+09:48:51.222 INFO - Done: [get title]
+09:48:51.226 INFO - Executing: [find element: By.cssSelector: #id])
+09:48:51.237 INFO - Done: [find element: By.cssSelector: #id]
+09:48:51.241 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: #id], [b, n, s, w, m, c, 0, 0, 1]])
+09:48:51.290 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: #id], [b, n, s, w, m, c, 0, 0, 1]]
+09:48:51.293 INFO - Executing: [find element: By.cssSelector: #pwd])
+09:48:51.314 INFO - Done: [find element: By.cssSelector: #pwd]
+09:48:51.318 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: #pwd], [a, a, a, a, 1, 1, 1, 1]])
+09:48:51.356 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: #pwd], [a, a, a, a, 1, 1, 1, 1]]
+09:48:51.359 INFO - Executing: [find element: By.cssSelector: #login])
+09:48:51.369 INFO - Done: [find element: By.cssSelector: #login]
+09:48:51.372 INFO - Executing: [click: 3 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: #login]])
+09:48:51.397 INFO - Done: [click: 3 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: #login]]
+09:48:51.402 INFO - Executing: [find elements: By.cssSelector: body])
+09:48:52.185 INFO - Done: [find elements: By.cssSelector: body]
+09:48:52.188 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: body]])
+09:48:52.702 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: body]]
+09:48:52.706 INFO - Executing: [find element: By.cssSelector: span.gnbMyname])
+09:48:52.717 INFO - Done: [find element: By.cssSelector: span.gnbMyname]
+09:48:52.719 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: span.gnbMyname]])
+09:48:52.732 INFO - Done: [get text: 5 [[ChromeDriver: chrome on MAC (0753ec109aff5f6d43cac721afd77f7a)] -> css selector: span.gnbMyname]]
+09:48:52.738 INFO - Executing: [delete session: b0434b07-e637-4bee-943d-fd269fe533ae])
+09:48:53.300 INFO - Done: [delete session: b0434b07-e637-4bee-943d-fd269fe533ae]

@@ -1,6 +1,7 @@
-var waitTime = 8000;
+var waitTime = 5000;
 
 module.exports = {
+
 
   'bns-main-login' : function (browser) {
 
