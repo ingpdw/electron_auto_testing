@@ -22,11 +22,7 @@
 	<div class="contents">
 
 		<h2>프로덕트</h2>
-		<div class="list-group">
-			<a href="list.html?product=bns" class="list-group-item">bns</a>
-			<a href="list.html?product=aion" class="list-group-item">aion</a>
-			<a href="list.html?product=lineage1" class="list-group-item">Lineage1</a>
-			<a href="list.html?product=lineage2" class="list-group-item">Lineage2</a>
+		<div id="product" class="list-group">
 		</div>
 
 	</div>
@@ -34,6 +30,8 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
+	<script>
+		require( './resource/js/index.js' ).init();
+	</script>
 </body>
 </html>

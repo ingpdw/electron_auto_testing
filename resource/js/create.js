@@ -62,5 +62,21 @@ module.exports = {
       },
       error( data ){}
     });
+
+    var selectCategory = common.selectCategory();
+    selectCategory.then( function( data ){
+      var _tmp = [], template = '<option value="{{name}}">{{name}}</option>';
+      if( data.result === 'success'){
+        var items = data.data;
+        for( var i = 0; items[ i ]; i++ ){
+          var item = items[ i ];
+          _tmp.push( template.replace( /{{name}}/g, item.name ) );
+        }
+
+        $( '#product' ).append( _tmp.join( '' ) );
+      }
+    }, function(){
+
+    });
   }
 };

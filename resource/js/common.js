@@ -36,6 +36,23 @@ module.exports = {
     return deferred.promise;
   },
 
+  selectCategory: function(){
+    var deferred = Q.defer();
+
+    $.ajax({
+      method: 'get',
+      url: this.apiUrl + '/category',
+      success( data ){
+        deferred.resolve( data );
+      },
+      error( data ){
+        deferred.reject(new Error( data ) );
+      }
+    });
+
+    return deferred.promise;
+  },
+
   removeAllFiles: function( dir ){
     fs.readdirSync( dir ).forEach(function( fileName ) {
        var currPath = dir + '/' + fileName;
