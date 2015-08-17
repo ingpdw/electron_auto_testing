@@ -1,6 +1,10 @@
 node_modules/*
+bower_components/*
 build/*
 reports/*
-bower_components/*
-screenshorts/*
+tests/*
+screenshots/*
+
 .DS_Store
+mongodb-keyfile
+selenium-debug.log
