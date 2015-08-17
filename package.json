@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://plat-lego.korea.ncsoft.corp/uikit/test_automation.git"
+    "url": ""
   },
-  "author": "NCSOFT",
-  "license": "NCSOFT",
+  "author": "",
+  "license": "",
   "devDependencies": {
     "asar": "^0.7.2",
     "electron-prebuilt": "^0.30.2",

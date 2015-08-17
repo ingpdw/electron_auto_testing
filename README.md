@@ -1,9 +1,9 @@
-### 테스트 자동화
+### electron_testing_automation
 
-#### 설치
+#### install
 * git clone https://github.com/ingpdw/electron_auto_testing.git
 * npm install gulp -g
 * npm install
 
-#### 실행
+#### run
 * gulp run
