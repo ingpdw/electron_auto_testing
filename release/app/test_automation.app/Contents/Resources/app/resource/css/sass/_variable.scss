@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+//Font family
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+// set font-family
+$font-family-base:"Nanum Gothic", "맑은 고딕", "Malgun Gothic", "Apple SD Gothic Neo", Dotum, "돋움", "Microsoft NeoGothic",Sans-serif;
+$font-family-eng: 'Montserrat', sans-serif;
+// $font-family-eng: 'Quicksand', sans-serif;
+
+// set color
+$body-bg:				#27282e;
+$font-color-base:		#f3f3f3;
+$font-size-base:		14px; //30pt

@@ -1,7 +1,7 @@
 ### 테스트 자동화
 
 #### 설치
-* git clone http://plat-lego.korea.ncsoft.corp/uikit/test_automation.git
+* git clone https://github.com/ingpdw/electron_auto_testing.git
 * npm install gulp -g
 * npm install
 

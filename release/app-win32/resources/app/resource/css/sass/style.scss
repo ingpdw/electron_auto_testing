@@ -1,0 +1,89 @@
+/////////////////////////////////////////////////////////////////////
+//
+// reset
+//
+/////////////////////////////////////////////////////////////////////
+@import "compass";
+@import "variable";
+@import "reset";
+@import "mixin";
+/////////////////////////////////////////////////////////////////////
+//
+// layout
+//
+/////////////////////////////////////////////////////////////////////
+@import "module";
+@import "layout";
+/////////////////////////////////////////////////////////////////////
+//
+// contents
+//
+/////////////////////////////////////////////////////////////////////
+html {
+	height:100%;
+}
+body {
+	height:100%;
+	position: relative;
+}
+
+a.list-group-item {
+	background-color:#2d2f34;
+	color:#d8dae3;
+	border:0;
+	margin:0 0 2px;
+	color:#82848b;
+	&:hover {
+		background-color:#393a40;
+		color:#FFF;
+	}
+}
+
+div.list-group-item {
+	background-color:#2d2f34;
+	color:#d8dae3;
+	border:0;
+	margin:0 0 2px;
+	color:#82848b;
+	&:hover {
+		background-color:#393a40;
+		color:#FFF;
+	}
+	input {
+		margin:0 5px 0 0;
+		vertical-align:middle;
+	}
+	a {
+		color:#82848b;
+	}
+}
+.form-group {
+	label {
+		width:10%;
+		@include inline-block;
+		&:before {
+			@include iconic-font('\f105 ', 12px, #ffffff);
+			padding-right:5px;
+		}
+	}
+	.form-control {
+		@include inline-block;
+	}
+	input {
+		width:89%;
+	}
+	select {
+		width:89%;
+	}
+}
+.button-wrap {
+	text-align: right;
+	.left-wrap {
+		float:left;
+	}
+}
+.editor-wrap {
+	#editor {
+		height:800px;
+	}
+}
