@@ -4,6 +4,7 @@ build/*
 reports/*
 tests/*
 screenshots/*
+release/*
 
 .DS_Store
 mongodb-keyfile
